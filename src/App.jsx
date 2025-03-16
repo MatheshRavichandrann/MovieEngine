@@ -3,7 +3,7 @@ import MovieCard from "./movieCard";
 import SearchIcon from "./search.svg";
 import "./App.css";
 
-const API_URL = "http://www.omdbapi.com?apikey=a895d2b6";
+const API_URL = "https://www.omdbapi.com?apikey=a895d2b6";
 
 const App = () => {
   const [movies, setMovies] = useState([]);
@@ -26,7 +26,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>MovieLand</h1>
+      <h1>MovieEngine</h1>
 
       <div className="search">
         <input 
